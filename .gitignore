@@ -1,0 +1,5 @@
+/target
+/.jenkins-secrets
+/.apt_generated_tests
+/tools
+/work

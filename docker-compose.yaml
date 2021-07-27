@@ -1,0 +1,12 @@
+version: "3"
+services:
+  local_jenkins:
+    build:
+      context: ./dev
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - local-jenkins:/var/jenkins_home
+volumes:
+  local-jenkins:

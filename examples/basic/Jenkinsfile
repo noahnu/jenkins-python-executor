@@ -1,0 +1,6 @@
+node {
+    pythonExecutor script: """
+        def main():
+          print("Hello!")
+    """.stripIndent()
+}
